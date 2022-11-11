@@ -21,13 +21,13 @@ export default {
       members: [
         {
           name: "GungGing",
-          image: "assets/image/shibe.jpg",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8n5cqOcmQfUhFrb759ZISUoirU7LZTQuqBA&usqp=CAU",
           faculty: "Crispy Pork",
           isMember: true,
         },
         {
           name: "Phum",
-          image: "assets/image/red.jpg",
+          image: "http://i.ytimg.com/vi/6p8rZmCVDwo/hqdefault.jpg",
           faculty: "Red Bird",
           isMember: true,
         },
