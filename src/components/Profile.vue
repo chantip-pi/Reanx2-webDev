@@ -53,7 +53,7 @@ export default {
       return url;
     },
     getUrl(imagePath) {
-      return { "background-image": 'url("./src/' + imagePath + '")' };
+      return { "background-image": 'url("./src' + imagePath + '")' };
     },
   },
 };
