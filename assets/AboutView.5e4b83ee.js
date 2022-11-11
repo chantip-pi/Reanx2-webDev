@@ -1,0 +1,1 @@
+import{_ as o,o as t,c,a as e}from"./index.e72cbbc7.js";const s={},n=e("div",{class:"box-content w-82 p-16 flex justify-center"},[e("span",null,"We are Program Bomber")],-1),r=[n];function a(_,l){return t(),c("div",null,r)}const d=o(s,[["render",a]]);export{d as default};
