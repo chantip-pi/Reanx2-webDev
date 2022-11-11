@@ -1,6 +1,6 @@
 <template>
-  <div class="flex item-center justify-center space-x-5 h-screen">
-    <div v-for="member in members" :key="member.id" class="flex item-center justify-center space-x-5 h-screen">
+  <div class="flex item-center justify-center space-x-5">
+    <div v-for="member in members" :key="member.id">
       <profileCard
         v-if="member.isMember"
         :key="member.id"
@@ -31,15 +31,13 @@ export default {
           faculty: "Red Bird",
           isMember: true,
         },
-        { name: "Mim", 
-        faculty: "Polite Cat" ,
-      isMember:true},
+        { name: "Mim", faculty: "Polite Cat", isMember: true },
         {
           name: "Imposter",
           faculty: "SUS",
 
           image: "assets/image/sus.jpg",
-          isMember:false
+          isMember: false,
         },
       ],
     };
